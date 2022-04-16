@@ -7,7 +7,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('To Do App')
     .setDescription(
-      'Simple ToDo app to test Event Driven Architecture in NestJS',
+      'Simple ToDo app to test Event Driven Architecture in NestJS'
     )
     .setVersion('1.0')
     .setLicense('MIT', 'https://opensource.org/licenses/MIT')

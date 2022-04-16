@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.0.133:5432/postgres
+    username: postgres
+    password: postgres
+  rabbitmq:
+    host: 192.168.0.133
+    port: 5672
+    username: bhavanichandra
+    password: mdeveloper@123
+springdoc:
+  swagger-ui:
+    path: /docs
