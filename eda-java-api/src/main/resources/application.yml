@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:postgresql://192.168.0.133:5432/postgres
+    url: jdbc:postgresql://192.168.0.133:5432/taskr
     username: postgres
     password: postgres
   rabbitmq:
@@ -10,6 +10,8 @@ spring:
     port: 5672
     username: bhavanichandra
     password: mdeveloper@123
+    queue: taskr-queue
+    exchange: taskr-api
 springdoc:
   swagger-ui:
     path: /docs
